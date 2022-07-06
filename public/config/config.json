@@ -1,10 +1,10 @@
 {
-  "CONTRACT_ADDRESS": "0x99cB1Db7d2aa6aBc93e277169fcEEE9Aa0E9B773",
-  "SCAN_LINK": "https://testnet.snowtrace.io/address/0x99cB1Db7d2aa6aBc93e277169fcEEE9Aa0E9B773",
+  "CONTRACT_ADDRESS": "0xe542D540565d9F644DCe122E7663E4b8A8c2F589",
+  "SCAN_LINK": "https://snowtrace.io/address/0xe542D540565d9F644DCe122E7663E4b8A8c2F589",
   "NETWORK": {
     "NAME": "Avalanche",
     "SYMBOL": "AVAX",
-    "ID": 43113
+    "ID": 43114
   },
   "NFT_NAME": "The Secret Files",
   "SYMBOL": "SCRT",
