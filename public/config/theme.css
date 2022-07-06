@@ -1,0 +1,22 @@
+:root {
+  --primary: #1a1919;
+  --primary-text: #f1efef;
+  --secondary: #f749f8;
+  --secondary-text: #ffffff;
+  --accent: #505050;
+  --accent-text: #ffffff;
+}
+
+body{
+  font-family: 'xfiles'!important;
+}
+
+@font-face {
+  font-family: 'xfiles';
+  src: url('/xfiles.woff2');
+}
+
+a,a:link,a:hover,a:focus,a:visited{
+  color:inherit;
+  text-decoration: none;
+}
