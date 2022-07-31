@@ -78,13 +78,13 @@ export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px #ffffffb3;
   border: 1px solid #fff;
   background-color: var(--accent);
-  border-radius: 100%;
+  border-radius: 6px;
   width: 200px;
   @media (min-width: 900px) {
     width: 250px;
   }
   @media (min-width: 1000px) {
-    width: 300px;
+    width: 400px;
   }
   transition: width 0.5s;
 `;
@@ -179,11 +179,14 @@ function App() {
 
   return (
     <s.Screen>
+      <video autoPlay={true} muted loop id="videobg" style={{zIndex:1}}>
+        <source src="/config/images/videobg.mp4" type="video/mp4"/>
+      </video>
+
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/spacebg.jpg" : null}
+        style={{ padding: 24, backgroundColor: "transparent", zIndex:2 }}
       >
         <s.TextTitle
               style={{
@@ -194,12 +197,12 @@ function App() {
                 color: "var(--accent-text)",
               }}
             >
-              The Secret Files
+              The Secret Files II
             </s.TextTitle>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/1.gif"} />
+            <StyledImg alt={"example"} src={"/config/images/scrtIIa.jpg"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -241,13 +244,13 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Secret Files is a Free Mint powered by the <a href="https://www.alteregopunks.com/" target="_blank">EgoVerse</a>
+                  Secret Files II is a Free Mint powered by the <a href="https://www.alteregopunks.com/" target="_blank">EgoVerse</a>
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                1 NFT per wallet/transaction
+                *1 NFT mint per wallet*
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
@@ -319,7 +322,7 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
-              src={"/config/images/2.gif"}
+              src={"/config/images/scrtIIb.jpg"}
               style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>
