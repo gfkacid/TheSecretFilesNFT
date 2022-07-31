@@ -1,17 +1,17 @@
 {
-  "CONTRACT_ADDRESS": "0xe542D540565d9F644DCe122E7663E4b8A8c2F589",
-  "SCAN_LINK": "https://snowtrace.io/address/0xe542D540565d9F644DCe122E7663E4b8A8c2F589",
+  "CONTRACT_ADDRESS": "0x58D462b7d58B4B8D706A909C1188E9aEccd17377",
+  "SCAN_LINK": "https://snowtrace.io/address/0x58D462b7d58B4B8D706A909C1188E9aEccd17377",
   "NETWORK": {
     "NAME": "Avalanche",
     "SYMBOL": "AVAX",
     "ID": 43114
   },
-  "NFT_NAME": "The Secret Files",
-  "SYMBOL": "SCRT",
-  "MAX_SUPPLY": 99,
+  "NFT_NAME": "The Secret Files II",
+  "SYMBOL": "SCRTII",
+  "MAX_SUPPLY": 333,
   "WEI_COST": 0,
   "DISPLAY_COST": 0,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Campfire",
-  "SHOW_BACKGROUND": true
+  "MARKETPLACE": "Joepegs",
+  "SHOW_BACKGROUND": false
 }
